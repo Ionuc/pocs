@@ -1,0 +1,22 @@
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+            [group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '1.3.1.RELEASE', ext: 'pom'],
+            [group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.3.1.RELEASE'],
+    )
+
+    testCompile(
+            [group: 'org.spockframework', name: 'spock-core', version: '1.0-groovy-2.4'],
+    )
+}
+
+group 'com.imesaros'
+version '1.0-SNAPSHOT'
