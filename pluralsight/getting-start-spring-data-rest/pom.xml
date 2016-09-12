@@ -11,7 +11,7 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.guitar</groupId>
-	<artifactId>ps-guitar-rest</artifactId>
+	<artifactId>getting-start-spring-data-rest</artifactId>
 	<version>1.0.0.SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Spring Data REST Pluralsight Sample Project</name>

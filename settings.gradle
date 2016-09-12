@@ -1,5 +1,5 @@
 rootProject.name = 'spring-boot-app'
 
 
-include 'pluralsight/spring-boot-app'
+include 'pluralsight/spring-boot-app', 'pluralsight/getting-start-spring-data-rest'
 
